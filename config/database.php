@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Str;
+
 $dbopts = parse_url(getenv("DATABASE_URL"));
 $host = $url["host"]??null;
 $username = $url["user"]??null;
