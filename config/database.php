@@ -2,11 +2,11 @@
 
 use Illuminate\Support\Str;
 
-$dbopts = parse_url(getenv('DATABASE_URL'));
+$dbopts = parse_url(getenv("DATABASE_URL"));
 $host = $url["host"];
-$database = substr($url["path"], 1);
 $username = $url["user"];
 $password = $url["pass"];
+$database = substr($url["path"], 1);
 
 return [
 
