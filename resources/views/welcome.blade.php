@@ -64,7 +64,7 @@
                                     </div>
                                     <div class="book_room">
                                         <div class="book_btn">
-                                            <a class="popup-with-form" href="/admin">Book Appointment</a>
+                                            <a href="/appointment">Book Appointment</a>
                                         </div>
                                     </div>
                                 </div>
@@ -321,53 +321,6 @@
     </footer>
 
     <!-- link that opens popup -->
-
-    <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide">
-        <div class="popup_box ">
-            <div class="popup_inner">
-                <h3>
-                    Book an
-                <span>Appointment</span>
-                </h3>
-                <form action="#">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <select class="form-select wide" id="default-select" class="">
-                                <option data-display="Silahklan Pilih Dokter Yang Diinginkan"> </option>
-                                <option value="1">Anaf</option>
-                                <option value="2">Nayna Therapy</option>
-                                <option value="3">Nadif</option>
-                            </select>
-                        </div>
-                        <div class="col-xl-9">
-                            <input type="text"  placeholder="Nama">
-                        </div>
-                        <div class="col-xl-3">
-                            <input type="text"  placeholder="Umur">
-                        </div>
-                        <div class="col-xl-6">
-                            <input type="text"  placeholder="Nomor Telfon">
-                        </div>
-                        <div class="col-xl-6">
-                            <input type="email"  placeholder="Email Address">
-                        </div>
-                        <div class="col-xl-6">
-                            <input class="datepicker" placeholder="Appointment Date">
-                        </div>
-                        <div class="col-xl-6">
-                            <input class="timepicker" placeholder="Suitable time">
-                        </div>
-                        <div class="col-xl-12">
-                            <button type="submit" class="boxed-btn3">Make an Appointment</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </form>
-    <!-- form itself end -->
-
     <!-- JS here -->
     <script src="{{ ('js/vendor/modernizr-3.5.0.min.js ') }}"></script>
     <script src="{{ ('js/vendor/jquery-1.12.4.min.js ') }}"></script>

@@ -25,6 +25,8 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/appointment', 'Appointment@input');
+
 //Route::get('/ourdoctors', function () {
 //    return view('doctor');
 //});
