@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
 <body>
-    <div class="book_apointment_area">
+    <div>
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-lg-7">

@@ -47,7 +47,7 @@
                                     <div class="main-menu">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a href="/">Home</a></li>
+                                                <li><a href="/home">Home</a></li>
                                                 <li><a href="/news">News</a></li>
                                                 <li><a href="/ourdoctors">Our Doctors</a></li>
                                                 <li><a href="/about">About</a></li>
@@ -56,7 +56,6 @@
                                                         <li><a href="/pgigi">Gigi</a></li>
                                                         <li><a href="/pjantung">Jantung</a></li>
                                                         <li><a href="/pparu">Paru-paru</a></li>
-                                                        <li><a href="/ptulang">Tulang</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="/contact">Contact</a></li>
@@ -65,7 +64,7 @@
                                     </div>
                                     <div class="book_room">
                                         <div class="book_btn">
-                                            <a class="popup-with-form" href="#">Sign In</a>
+                                            <a href="/appointment">Book Appointment</a>
                                         </div>
                                     </div>
                                 </div>

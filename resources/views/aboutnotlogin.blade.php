@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{ ('css/animate.css ') }}">
     <link rel="stylesheet" href="{{ ('css/slicknav.css ') }}">
     <link rel="stylesheet" href="{{ ('css/style.css ') }}">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
@@ -81,25 +81,19 @@
     </header>
     <!-- header-end -->
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="slider_active owl-carousel">
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <span>MEDI</span>
-                                <h3> <span>Memberikan kesehatan</span> <br>
-                                    untuk seluruh keluarga.</h3>
-                            </div>
-                        </div>
+    <!-- bradcam_area_start  -->
+    <div class="bradcam_area breadcam_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3>About Us</h3>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- slider_area_end -->
+    <!-- bradcam_area_end  -->
 
     <!-- welcome_clicnic_area_start -->
     <div class="welcome_clicnic_area">
@@ -114,114 +108,24 @@
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="welcome_docmed_info">
-                        <h3>Selamat Datang di
-                            <span>Medi.</span></h3>
-                        <p>Medi,  yang terletak di distrik perumahan eksklusif di Tangerang, menyediakan tempat perlindungan yang nyaman bagi pasien selama proses penyembuhan mereka. Sejak 2008, Medi terus fokus dalam memberikan perawatan pasien yang sangat baik. Dengan spesialis medis terbaik bangsa, peralatan medis terbaru, dan layanan profesional, Medi siap melayani pasien rawat inap dan rawat jalan kami 24 jam sehari, tujuh hari seminggu.</p>
-                        <a href="/about" class="boxed-btn6">About us</a>
+                        <h4><span>Medi Group</span></h4>
+                        <p>Medi Group adalah salah satu grup klinik terbaik di Indonesia, saat ini terdiri dari dua klinik berstandar internasional yang masing-masing berlokasi di Jakarta Selatan dan Tangerang. Klinik kami dilengkapi dengan fasilitas medis mutakhir, peralatan bedah mutakhir, layanan darurat yang efisien dan profesional medis berpengalaman untuk memberikan pelanggan kami layanan berkualitas luar biasa. 
+
+Kami memberi pelanggan kami kesempatan untuk merasakan layanan perawatan kesehatan yang lebih baik di Indonesia tanpa perlu bepergian ke luar negeri untuk mendapatkan perawatan medis.</p>
+                        <br>
+                        <h4><span>Visi</span></h4>
+                        <p>Menjadi Penyedia Layanan Kesehatan Pilihan, Terkenal Karena Perawatan Berkualitas </p>
+                        <br>
+                        <h4><span>Misi</span></h4>
+                        <p>Mengoperasikan Jaringan Terpadu yang Memberikan Layanan Kesehatan Lengkap.</p>
+                        
+                        <p>Untuk Memberikan Pengalaman Pasien Yang Luar Biasa Dan Keselamatan Melalui Kasih Sayang dan Profesionalisme Orang-Orang Kami Dan Kualitas Sistem Dan Teknologi Kami.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- welcome_clicnic_area_end -->
-
-    <!-- depertment_area_start  -->
-    <div class="depertment_area">
-        <div class="container">
-            <div class="row custom_align align-items-end justify-content-between">
-                <div class="col-lg-6">
-                    <div class="section_title">
-                        <h3>Poli</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="depart_ment_tab mb-30">
-                        <ul class="nav" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#" role="tab" aria-controls="home" aria-selected="true">
-                                    <i class="flaticon-teeth"></i>
-                                    <h4>Gigi</h4>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#" role="tab" aria-controls="profile" aria-selected="false">
-                                    <i class="flaticon-cardiovascular"></i>
-                                    <h4>Jantung</h4>
-                                </a>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="Neuroanatomy-tab" data-toggle="tab" href="#" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-lung"></i>
-                                    <h4>Paru-paru</h4>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="Astrology-tab" data-toggle="tab" href="#Astrology" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-bone"></i>
-                                    <h4>Tulang</h4>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-    <!-- depertment_area_end  -->
-
-    <!-- expert_doctors_area_start -->
-    <div class="expert_doctors_area">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-lg-6">
-                    <div class="section_title mb-55 text-center">
-                        <h3>Dokter</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_expert">
-                        <div class="expert_thumb">
-                            <img src="img/experts/1.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                            <h3>Hari Haryanto</h3>
-                            <span>Doktor Gigi</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_expert">
-                        <div class="expert_thumb">
-                            <img src="img/experts/2.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                            <h3>Yusuf Nugroho</h3>
-                            <span>Dokter Jantung</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_expert">
-                        <div class="expert_thumb">
-                            <img src="img/experts/3.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                            <h3>Taufik Simbolon</h3>
-                            <span>Dokter Paru-paru</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- expert_doctors_area_end -->
-
-
 
     <!-- quality_area_start  -->
     <div class="quality_area">
@@ -266,7 +170,7 @@
     </div>
     <!-- quality_areaend  -->
 
-
+    
     <footer class="footer">
         <div class="footer_top">
             <div class="container">
@@ -278,7 +182,7 @@
                                     <img src="img/logo.png" alt="">
                                 </a>
                             </div>
-
+                            
 
                         </div>
                     </div>
@@ -315,13 +219,17 @@
                 <div class="row">
                     <div class="bordered_1px "></div>
                     <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- link that opens popup -->
     <!-- JS here -->
     <script src="{{ ('js/vendor/modernizr-3.5.0.min.js ') }}"></script>
     <script src="{{ ('js/vendor/jquery-1.12.4.min.js ') }}"></script>

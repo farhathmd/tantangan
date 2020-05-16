@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{ ('css/animate.css ') }}">
     <link rel="stylesheet" href="{{ ('css/slicknav.css ') }}">
     <link rel="stylesheet" href="{{ ('css/style.css ') }}">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
@@ -81,191 +81,54 @@
     </header>
     <!-- header-end -->
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="slider_active owl-carousel">
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <span>MEDI</span>
-                                <h3> <span>Memberikan kesehatan</span> <br>
-                                    untuk seluruh keluarga.</h3>
+    <!-- bradcam_area_start  -->
+    <div class="bradcam_area breadcam_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3>Contact</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bradcam_area_end  -->
+
+    <!-- ================ contact section start ================= -->
+    <div class="row">
+                    <div class="col-12">
+                        <h2 class="contact-title"></h2>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4561450266815!2d106.64113841431009!3d-6.203400962494627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d0c6bb6ecab2153!2sMayapada%20Hospital%20Tangerang%20(MHTG)!5e0!3m2!1sen!2sid!4v1585139925584!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <h3>Jl. Honoris Raya Kav. 6 Modernland - Tangerang.</h3>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                            <div class="media-body">
+                                <h3>(021) 5578 - 1888</h3>
+                                <p>Mon to Fri 9am to 6pm</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-email"></i></span>
+                            <div class="media-body">
+                                <h3>info@medi.com</h3>
+                                <p>Send us your query anytime!</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- slider_area_end -->
-
-    <!-- welcome_clicnic_area_start -->
-    <div class="welcome_clicnic_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_thumb">
-                        <div class="thumb_1">
-                            <img src="img/about/1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_docmed_info">
-                        <h3>Selamat Datang di
-                            <span>Medi.</span></h3>
-                        <p>Medi,  yang terletak di distrik perumahan eksklusif di Tangerang, menyediakan tempat perlindungan yang nyaman bagi pasien selama proses penyembuhan mereka. Sejak 2008, Medi terus fokus dalam memberikan perawatan pasien yang sangat baik. Dengan spesialis medis terbaik bangsa, peralatan medis terbaru, dan layanan profesional, Medi siap melayani pasien rawat inap dan rawat jalan kami 24 jam sehari, tujuh hari seminggu.</p>
-                        <a href="/about" class="boxed-btn6">About us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- welcome_clicnic_area_end -->
-
-    <!-- depertment_area_start  -->
-    <div class="depertment_area">
-        <div class="container">
-            <div class="row custom_align align-items-end justify-content-between">
-                <div class="col-lg-6">
-                    <div class="section_title">
-                        <h3>Poli</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="depart_ment_tab mb-30">
-                        <ul class="nav" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#" role="tab" aria-controls="home" aria-selected="true">
-                                    <i class="flaticon-teeth"></i>
-                                    <h4>Gigi</h4>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#" role="tab" aria-controls="profile" aria-selected="false">
-                                    <i class="flaticon-cardiovascular"></i>
-                                    <h4>Jantung</h4>
-                                </a>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="Neuroanatomy-tab" data-toggle="tab" href="#" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-lung"></i>
-                                    <h4>Paru-paru</h4>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" id="Astrology-tab" data-toggle="tab" href="#Astrology" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-bone"></i>
-                                    <h4>Tulang</h4>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-    <!-- depertment_area_end  -->
-
-    <!-- expert_doctors_area_start -->
-    <div class="expert_doctors_area">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-lg-6">
-                    <div class="section_title mb-55 text-center">
-                        <h3>Dokter</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_expert">
-                        <div class="expert_thumb">
-                            <img src="img/experts/1.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                            <h3>Hari Haryanto</h3>
-                            <span>Doktor Gigi</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_expert">
-                        <div class="expert_thumb">
-                            <img src="img/experts/2.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                            <h3>Yusuf Nugroho</h3>
-                            <span>Dokter Jantung</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_expert">
-                        <div class="expert_thumb">
-                            <img src="img/experts/3.png" alt="">
-                        </div>
-                        <div class="experts_name text-center">
-                            <h3>Taufik Simbolon</h3>
-                            <span>Dokter Paru-paru</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- expert_doctors_area_end -->
-
-
-
-    <!-- quality_area_start  -->
-    <div class="quality_area">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-lg-6">
-                    <div class="section_title mb-55 text-center">
-                        <h3>Keunggulan Kami</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_quality">
-                        <div class="icon">
-                            <i class="flaticon-customer-service"></i>
-                        </div>
-                        <h3>Kemudahan Akses</h3>
-                        <p>Medi tersebar di beberapa wilayah dan kota-kota besar di Indonesia dengan lokasi strategis dan mudah diakses, sehingga kebutuhan masyarakat akan layanan kesehatan dapat terpenuhi.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_quality">
-                        <div class="icon">
-                            <i class="flaticon-find"></i>
-                        </div>
-                        <h3>Fasilitas Lengkap</h3>
-                        <p>Medi memiliki fasilitas pelayanan yang lengkap, diantaranya adalah layanan Gawat Darurat, Radiologi, Laboratorium dan Farmasi yang hadir selama 24 jam, area parkir yang luas, ruang edukasi pasien, ruang poli yang nyaman, ruang laktasi, area bermain di Poli Anak, ATM Center, Musholla, WiFi untuk keluarga pasien, kantin, dan area lobi.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_quality">
-                        <div class="icon">
-                            <i class="flaticon-doctor"></i>
-                        </div>
-                        <h3>Menyediakan Pelayanan yang Baik dan Terjangkau</h3>
-                        <p>Medi mampu memberikan layanan kesehatan yang menyeluruh untuk masyarakat Indonesia dan warga negara asing (WNA), layanan pasien dengan jaminan Asuransi/BPJS/KIS dengan teknologi terbaik dan harga terjangkau. Medi diharapkan mampu memberikan solusi kesehatan bagi masyarakat.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- quality_areaend  -->
-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4561450266815!2d106.64113841431009!3d-6.203400962494627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d0c6bb6ecab2153!2sMayapada%20Hospital%20Tangerang%20(MHTG)!5e0!3m2!1sen!2sid!4v1585139925584!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <br>
+                    
+                    </center>
+    <!-- ================ contact section end ================= -->
 
     <footer class="footer">
         <div class="footer_top">
@@ -278,7 +141,7 @@
                                     <img src="img/logo.png" alt="">
                                 </a>
                             </div>
-
+                            
 
                         </div>
                     </div>
@@ -315,13 +178,17 @@
                 <div class="row">
                     <div class="bordered_1px "></div>
                     <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- link that opens popup -->
     <!-- JS here -->
     <script src="{{ ('js/vendor/modernizr-3.5.0.min.js ') }}"></script>
     <script src="{{ ('js/vendor/jquery-1.12.4.min.js ') }}"></script>
